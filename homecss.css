@@ -1,0 +1,265 @@
+op {
+    margin-top: 5%;
+    margin-left: 20%;
+    color: black;
+    border: 2px solid black;
+    background-image: linear-gradient(215deg, lightblue, pink);
+    font-size: 80px;
+    text-align: center;
+    border-radius: 30%;
+    width: 840px;
+    text-outline: solid black;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('box.jpg');
+}
+
+p {
+    margin-top: 30%;
+    margin-right: 5%;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.para {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.about {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 70px;
+    font-size: 70px;
+}
+
+.copyrightfoot {
+    border: 2px solid black;
+    background-image: linear-gradient(white, grey);
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.formi {
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin-top: 6%;
+}
+
+.copyright {
+    border: 2px solid black;
+    background-image: linear-gradient(white, grey);
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.mainy {
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 60px;
+    border-radius: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#img1 {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 750px;
+    height: 550px;
+}
+
+#navbar {
+    border: 2px solid black;
+    background-image: linear-gradient(white, grey);
+    height: 70px;
+    padding-top: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 0px;
+}
+
+#navbar ul {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar ul li {
+    display: inline;
+    font-weight: 300px;
+}
+
+.heading1 {
+    border: 1px solid blue;
+    background-image: linear-gradient(215deg, blue, red);
+    height: 90px;
+    margin-bottom: 2px;
+    display: block;
+    border-radius: 20px;
+    color: white;
+}
+
+.h1 {
+    margin-left: 60%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    COLOR: black;
+    display: inline;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li a:hover {
+    color: lime;
+    background-color: black;
+}
+
+#navbar ul li a:active {
+    color: aqua;
+    background-color: greenyellow;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Container for image text */
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
